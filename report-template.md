@@ -60,4 +60,4 @@ Next step was going through with exploratory data analysis (EDA) and feature cre
 
 Hyperparameter tuning was taken after EDA. Tuning was done by playing some hyperparameters such as time_limit, sample_weight, auto_stack, and auto_stack. The kaggle RMSE score achieved both a little improving and decreasing results during seven times of hyperparameter tunings. The most significant improved and decreased results after hyperparameter tuning are 0.66247 and 0.70201 respectively. 
 
-Lastly, I stopped the model training and hyperparameters tuning for saving the provided bills by AWS. But, further improvements can be performed by spending more time with some experiments.
+Lastly, I stopped the model fitting and hyperparameters tuning for saving the provided bills by AWS. But, further improvements can be performed by spending more time with some experiments.
