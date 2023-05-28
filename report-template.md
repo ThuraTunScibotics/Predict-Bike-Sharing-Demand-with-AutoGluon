@@ -58,6 +58,6 @@ And then, trying to read the dataframe and drop some unecessary features from th
 
 Next step was going through with exploratory data analysis (EDA) and feature creation. Feature engineering was performed based on the datetime column and the distribution of the data visualized by histogram plot. The training after feature engineering leaded the model to a better performance. The Kagge RMSE score achieved by this trained model was 0.67688.
 
-Hyperparameter tuning was taken after EDA. Tuning was done by playing some hyperparameters such as time_limit, sample_weight, auto_stack, and auto_stack. The kaggle RMSE score achieved both a little improving and decreasing results during seven times of hyperparameter tunings. The most significant improved and decreased results after hyperparameter tuning are 0.66247 and 0.70201 respectively. 
+Hyperparameter tuning was taken after EDA. Tuning was done by playing some hyperparameters such as time_limit, sample_weight, auto_stack, and auto_stack. The kaggle RMSE score achieved both a little improving and decreasing results during seven times of hyperparameter tunings. The most significant improved and decreased results after hyperparameter tuning are 0.66247 and 0.70201 respectively. I found that increasing time_limit or playing hyperparameters combo of sample_weight, auto_stack and num_bag_sets can effect the model performance.
 
 Lastly, I stopped the model fitting and hyperparameters tuning for saving the provided bills by AWS. But, further improvements can be performed by spending more time with some experiments.
