@@ -13,7 +13,7 @@ TODO: The top rank model was the third model `hypo3-lightGBM & NeuralNetworks` w
 TODO: The **first finding** was `datetime` column with `object` dtype can be changed into `datetime` dtype, and we can also add more features by splitting separate column of `year`, `month`, `day`, `hour` and `dayofweek` from datetime column. And then, plotting the histogram of the training data during EDA gave me insight to the distributions of each feature in the data as the **second finding**. I seen there are two main type; *caegorical* and *continuous* data based on their distribution. Among categorical data, `season` and `weather` feature is more informative while `holiday` and `workingday` are just in binary distribution. Therefore, I converted informative `season` and `weather` data into `categorical` type from `int64`.  
 
 ### How much better did your model preform after adding additional features and why do you think that is?
-TODO: My model performed better after adding additional features. The Kaggle score of `root_mean_square_error` (RMSE) was reduced to `0.67806` from `1.80870`. I think it is because additional features and categorized data help the model for better learning the patterns related between the feature and the target. 
+TODO: My model performed better after adding additional features. The Kaggle score of `root_mean_square_error` (RMSE) was decrease to a better result of `0.67806` from `1.80870`. I think it is because additional features and categorized data help the model for better learning the related patterns between the feature and the target. 
 
 ## Hyper parameter tuning
 ### How much better did your model preform after trying different hyper parameters?
