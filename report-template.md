@@ -27,17 +27,15 @@ TODO: I will try to do the following experiments;
 4. Train with different model algorithm such as Neural Nets, Random Forest, KNN, XGBoost.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-|model|ime_limit|presets|sample_weight|auto_stack|num_bag_sets|score|
-|--|--|--|--|--|--|--|
-|initial|600|best_quality|default|default|default|1.79599|
-|add_features|600|best_quality|default|default|default|0.67688|
-|hpo|1080|best_quality|default|default|default|0.66247|
-|hpo1|600|best_quality|auto_weight|True|20|0.68865|
-|hpo2|600|best_quality|auto_weight|True|40|0.66586|
-|hpo3|900|best_quality|auto_weight|True|60|0.68616|
-|hpo4|900|best_quality|default|True|default|0.70201|
-|hpo5|900|best_quality|default|default|default|0.67053|
-|hpo6|600|best_quality|auto_weight|default|60|0.68806|
+|model|ime_limit|presets|num_epochs|num_boost_round|num_trials|num_folds|searcher|score|
+|--|--|--|--|--|--|--|--|--|
+|initial|600|best_quality|default|default|default|default|default|1.80870|
+|add_features|600|best_quality|default|default|default|default|default|0.67806|
+|hypo0-lightGBM|600|best_quality|default|50|4|5|auto|0.57451|
+|hypo1-NeuralNetworks|600|best_quality|10|default|4|5|auto|1.26499|
+|hypo2-lightGBM & NeuralNetworks|600|best_quality|15|100|8|9|random|0.47889|
+|hypo3-lightGBM & NeuralNetworks|900|high_quality|15|100|8|9|random|0.46291|
+|hypo4-lightGBM & NeuralNetworks|900|best_quality|15|100|6|12|random|0.47240|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
